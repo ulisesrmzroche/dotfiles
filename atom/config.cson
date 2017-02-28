@@ -1,0 +1,114 @@
+"*":
+  "atom-clock":
+    dateFormat: "h:mm a"
+    showClockIcon: true
+  "atom-material-ui":
+    colors: {}
+    tabs:
+      compactTabs: true
+    treeView:
+      blendTabs: true
+      compactList: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+  "autocomplete-modules":
+    webpack: true
+  "autocomplete-python":
+    useKite: false
+  core:
+    allowPendingPaneItems: false
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "power-mode"
+      "nuclide"
+      "atomic-chrome"
+      "python-tools"
+      "language-ocaml"
+      "language-thrift"
+      "linter-pep8"
+      "autoclose-html"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "*.pyc"
+    ]
+    packagesWithKeymapsDisabled: [
+      "hey-pane"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+    useCustomTitleBar: true
+  docblockr:
+    short_primitives: true
+  editor:
+    fontSize: 17
+    softWrap: true
+  "exception-reporting":
+    userId: "dc99c608-8420-bc3b-27b3-34b3a1d61c73"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  "git-plus":
+    general:
+      _analyticsUserId: "fff9c0f8-330f-489e-ae62-c52b244bf79e"
+  "language-babel": {}
+  linter:
+    gutterPosition: "Left"
+    showErrorTabLine: true
+    statusIconPosition: "Right"
+  "linter-eslint":
+    lintHtmlFiles: true
+  "linter-pep8": {}
+  "linter-sass-lint":
+    noConfigDisable: true
+  "linter-write-good": {}
+  minimap:
+    plugins:
+      linter: true
+      linterDecorationsZIndex: 0
+  nuclide:
+    installRecommendedPackages: true
+    "nuclide-home":
+      showHome: false
+  "split-diff":
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+".babel.regexp.source":
+  editor:
+    tabLength: 4
+".coffee.jsx.source":
+  editor:
+    autoIndent: false
+".js.jsx.source":
+  editor:
+    autoIndent: true
+    autoIndentOnPaste: false
+    softWrap: false
+".languagebabel.ttlextension":
+  editor:
+    tabLength: 4
