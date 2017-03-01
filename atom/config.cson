@@ -1,4 +1,7 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "5ad43b6a-1b4b-4e27-b2a4-712454ff7620"
   "atom-clock":
     dateFormat: "h:mm a"
     showClockIcon: true
